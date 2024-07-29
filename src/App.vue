@@ -28,7 +28,7 @@ import CoffeePlan from "./components/CoffeePlan.vue";
           <span class="title"> The Addict </span>
         </div>
       </div>
-      <CoffeePlan>The Hacker</CoffeePlan>
+      <CoffeePlan name="The Hacker"></CoffeePlan>
     </div>
   </div>
 </template>

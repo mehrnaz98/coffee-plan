@@ -1,13 +1,13 @@
+<script setup>
+defineProps(["name"]);
+</script>
+
 <template>
   <div class="plan">
     <div class="description">
-      <span class="title"> The Addict </span>
+      <span class="title"> {{ name }}</span>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style></style>
