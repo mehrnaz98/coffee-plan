@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import CoffeePlan from "./components/CoffeePlan.vue";
+</script>
 
 <template>
   <div class="content">
@@ -27,6 +29,7 @@
         </div>
       </div>
     </div>
+    <CoffeePlan>The Hacker</CoffeePlan>
   </div>
 </template>
 
