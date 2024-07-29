@@ -13,10 +13,7 @@ const plans = ref(["The Single", "The Curious", "The Addict", "The Hacker"]);
     </h2>
 
     <div class="plans">
-      <CoffeePlan name="The Single"></CoffeePlan>
-      <CoffeePlan name="The Curious"></CoffeePlan>
-      <CoffeePlan name="The Addict"></CoffeePlan>
-      <CoffeePlan name="The Hacker"></CoffeePlan>
+      <CoffeePlan v-for="plan in plans" :key="plan" :name="plan"></CoffeePlan>
     </div>
   </div>
 </template>
