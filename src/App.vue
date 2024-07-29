@@ -1,5 +1,7 @@
 <script setup>
 import CoffeePlan from "./components/CoffeePlan.vue";
+import { ref } from "vue";
+const plans = ref(["The Single", "The Curious", "The Addict", "The Hacker"]);
 </script>
 
 <template>
@@ -12,8 +14,8 @@ import CoffeePlan from "./components/CoffeePlan.vue";
 
     <div class="plans">
       <CoffeePlan name="The Single"></CoffeePlan>
-      <CoffeePlan name="The Hacker"></CoffeePlan>
       <CoffeePlan name="The Curious"></CoffeePlan>
+      <CoffeePlan name="The Addict"></CoffeePlan>
       <CoffeePlan name="The Hacker"></CoffeePlan>
     </div>
   </div>
