@@ -11,23 +11,9 @@ import CoffeePlan from "./components/CoffeePlan.vue";
     </h2>
 
     <div class="plans">
-      <div class="plan">
-        <div class="description">
-          <span class="title"> The Single </span>
-        </div>
-      </div>
-
-      <div class="plan">
-        <div class="description">
-          <span class="title"> The Curious </span>
-        </div>
-      </div>
-
-      <div class="plan">
-        <div class="description">
-          <span class="title"> The Addict </span>
-        </div>
-      </div>
+      <CoffeePlan name="The Single"></CoffeePlan>
+      <CoffeePlan name="The Hacker"></CoffeePlan>
+      <CoffeePlan name="The Curious"></CoffeePlan>
       <CoffeePlan name="The Hacker"></CoffeePlan>
     </div>
   </div>
