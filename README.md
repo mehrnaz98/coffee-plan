@@ -1,4 +1,4 @@
-# Coffee Plan
+# Coffee Plan App
 
 Explore the Best Single Origin Coffee.
 
