@@ -1,5 +1,7 @@
 <script setup>
+import { ref } from "vue";
 defineProps(["name"]);
+const selected = ref(false);
 </script>
 
 <template>
