@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-defineProps(["name"]);
+const props = defineProps({ name: { type: String, default: "Default Plan" } });
 
 const emit = defineEmits(["selected"]);
 
