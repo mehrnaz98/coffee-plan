@@ -3,7 +3,7 @@ import { ref } from "vue";
 import CoffeePlan from "./CoffeePlan.vue";
 
 const plans = ref(["The Single", "The Curious", "The Addict", "The Hacker"]);
-function handleSelectedCoffeePlan(e) {}
+function handleSelectedCoffeePlan(name) {}
 </script>
 
 <template>
