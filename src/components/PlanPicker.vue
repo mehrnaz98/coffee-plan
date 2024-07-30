@@ -7,7 +7,12 @@ const plans = ref(["The Single", "The Curious", "The Addict", "The Hacker"]);
 
 <template>
   <div class="plans">
-    <CoffeePlan v-for="plan in plans" :key="plan" :name="plan"></CoffeePlan>
+    <CoffeePlan
+      v-for="plan in plans"
+      :key="plan"
+      :name="plan"
+      @selected="$event"
+    ></CoffeePlan>
   </div>
 </template>
 
