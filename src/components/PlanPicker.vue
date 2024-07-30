@@ -17,7 +17,7 @@ function handleSelectedCoffeePlan(name) {
       v-for="plan in plans"
       :key="plan"
       :name="plan"
-      @selected="handleSelectedCoffeePlan($event)"
+      @selected="handleSelectedCoffeePlan"
     ></CoffeePlan>
   </div>
 </template>
