@@ -5,7 +5,7 @@ const selected = ref(false);
 </script>
 
 <template>
-  <div class="plan">
+  <div class="plan active-plan">
     <div class="description">
       <span class="title"> {{ name }}</span>
     </div>
