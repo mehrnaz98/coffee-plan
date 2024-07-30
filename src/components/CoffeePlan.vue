@@ -2,9 +2,12 @@
 import { ref } from "vue";
 defineProps(["name"]);
 
+const emit = defineEmits(["selected"]);
+
 const selected = ref(false);
 function selectPlan() {
   selected.value = !selected.value;
+  emit("selected", props.name);
 }
 </script>
 
