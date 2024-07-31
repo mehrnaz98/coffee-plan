@@ -2,6 +2,7 @@
 import { ref } from "vue";
 const props = defineProps({
   name: { type: String, default: "Default Plan" },
+  validator(value) {},
   selected: { type: Boolean, default: false },
 });
 
